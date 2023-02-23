@@ -80,7 +80,7 @@ def clear():
 	os.system('clear')
 def back():
 	menu()
-def banner():
+def banner(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
 	clear()
 	print("""
 \033[1;91m █████╗ ██████╗ ██╗  ██╗    
@@ -97,7 +97,15 @@ def banner():
 """%(h))
 		
 def menu(): #AYAN-ARAIN
-	banner()
+	banner(Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/PAKISTAN/Karachi.py", line 245, in <module>
+    menu()
+  File "/data/data/com.termux/files/home/PAKISTAN/Karachi.py", line 100, in menu
+    banner()
+  File "/data/data/com.termux/files/home/PAKISTAN/Karachi.py", line 85, in banner
+    print("""
+          ^^^
+TypeError: not all arguments converted during string formatting                                                       ~/PAKISTAN $)
 	print("") #AYAN-ARAIN
 	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
 	print("""%s \33[1;33m[1] File Crack  """%(h))
