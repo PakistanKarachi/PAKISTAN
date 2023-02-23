@@ -79,7 +79,7 @@ def mlaku(z):
 def clear():
 	os.system('clear')
 def back():
-	menu()
+	menu(/data/data/com.termux/files/home/PAKISTAN/Karachi.py)
 def banner(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
 	clear()
 	print("""
@@ -105,7 +105,7 @@ def menu(): #AYAN-ARAIN
   File "/data/data/com.termux/files/home/PAKISTAN/Karachi.py", line 85, in banner
     print("""
           ^^^
-TypeError: not all arguments converted during string formatting                                                       ~/PAKISTAN $)
+    TypeError: not all arguments converted during string formatting                                                       ~/PAKISTAN $)
 	print("") #AYAN-ARAIN
 	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
 	print("""%s \33[1;33m[1] File Crack  """%(h))
