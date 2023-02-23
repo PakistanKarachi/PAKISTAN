@@ -13,20 +13,29 @@ try:
 except:
 	pass
 head = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}
-logo = """____________ MR JADUGAR____________
-_____________________________________
-github   : not found                                
-Facebook : Kashif Baloch                     
-YouTube  : Mr Jadugar Gamers           
-Whatsapp : not found                            
-                                                 [DEAD USER]
+logo = """____________ MR SHERAZ____________
+  ______   _______   __    __ 
+ /      \ |       \ |  \  /  \
+|  $$$$$$\| $$$$$$$\| $$ /  $$
+| $$___\$$| $$__/ $$| $$/  $$ 
+ \$$    \ | $$    $$| $$  $$  
+ _\$$$$$$\| $$$$$$$ | $$$$$\  
+|  \__| $$| $$      | $$ \$$\ 
+ \$$    $$| $$      | $$  \$$\
+  \$$$$$$  \$$       \$$   \$$
+___________________________________
+OWNER   : SHERAZ-ARAIN                              
+CONTACT: 00971564382087                     
+Status  : FREE And ENJOY           
+Whatsapp : 00971564382087                            
+                                                 [RAJA]
 _____________________________________ """
 def Jadu():
 	os.system("clear")
-	os.system("xdg-open https://youtube.com/channel/UCrfVEu_7ylJI8XiVBrg4gmw")
+	os.system("https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN")
 	print(logo)
     
-	print("its only for fun")
+	print("its only craet file")
 	print("_____________________________________")
 	print(" [1] login with cookies")
 	p = input(" Select An Option : ")
