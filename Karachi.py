@@ -76,8 +76,8 @@ def jalan(z):
 def mlaku(z):
     for e in z + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.03)
     
-def clear():
-	os.system('clear')
+def clear(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
+	os.system('/data/data/com.termux/files/home/PAKISTAN/Karachi.py')
 def back(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
 	menu(/data/data/com.termux/files/home/PAKISTAN/Karachi.py)
 def banner(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
