@@ -75,12 +75,11 @@ def jalan(z):
     for e in z + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.04)
 def mlaku(z):
     for e in z + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.03)
-    
-def clear(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
+def clear('/data/data/com.termux/files/home/PAKISTAN/Karachi.py'):
 	os.system('/data/data/com.termux/files/home/PAKISTAN/Karachi.py')
-def back(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
-	menu(/data/data/com.termux/files/home/PAKISTAN/Karachi.py)
-def banner(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
+def back('/data/data/com.termux/files/home/PAKISTAN/Karachi.py'):
+	menu('/data/data/com.termux/files/home/PAKISTAN/Karachi.py')
+def banner('/data/data/com.termux/files/home/PAKISTAN/Karachi.py'):
 	clear()
 	print("""
 \033[1;91m █████╗ ██████╗ ██╗  ██╗    
