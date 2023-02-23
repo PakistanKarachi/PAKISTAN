@@ -78,7 +78,7 @@ def mlaku(z):
     
 def clear():
 	os.system('clear')
-def back():
+def back(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
 	menu(/data/data/com.termux/files/home/PAKISTAN/Karachi.py)
 def banner(/data/data/com.termux/files/home/PAKISTAN/Karachi.py):
 	clear()
